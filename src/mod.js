@@ -24,7 +24,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const config = __importStar(require("../config.json"));
-class EasierWorkout {
+class GigachadWorkout {
     postDBLoad(container) {
         const logger = container.resolve("WinstonLogger");
         const db = container.resolve("DatabaseServer");
@@ -38,6 +38,7 @@ class EasierWorkout {
         }
         workoutCircles.unshift(...Array.from({ length: config.extraCircles }, () => ({ ...firstCircle })));
         const results = tables.hideout.qte[0].results;
+        results.finishEffect.rewardsRange[0].time = config.musclePainDuration;
         if (config.disableFracture) {
             delete results.singleFailEffect.rewardsRange;
         }
@@ -59,5 +60,5 @@ class EasierWorkout {
         });
     }
 }
-module.exports = { mod: new EasierWorkout() };
+module.exports = { mod: new GigachadWorkout() };
 //# sourceMappingURL=mod.js.map

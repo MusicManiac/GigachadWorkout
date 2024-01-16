@@ -2,6 +2,7 @@
 	"extraCircles": 5,
 	"makeAllCirclesSameAsFirst": true,
 	"disableFracture" : true,
+	"musclePainDuration": 86400,
 
 	"sameExpRegardlessOfSkillLevel": true,
 	"expMultiplier": 3

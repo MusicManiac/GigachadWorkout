@@ -26,6 +26,8 @@ class GigachadWorkout implements IPostDBLoadMod
 
 		const results = tables.hideout.qte[0].results;
 
+		results.finishEffect.rewardsRange[0].time = config.musclePainDuration;
+
 		if (config.disableFracture) {
 			delete results.singleFailEffect.rewardsRange;
 		}
