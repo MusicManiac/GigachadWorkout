@@ -1,0 +1,8 @@
+{
+	"extraCircles": 5,
+	"makeAllCirclesSameAsFirst": true,
+	"disableFracture" : true,
+
+	"sameExpRegardlessOfSkillLevel": true,
+	"expMultiplier": 3
+}
