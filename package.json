@@ -1,10 +1,10 @@
 {
     "name": "MusicManiac-GigachadWorkout",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "MusicManiac",
-    "akiVersion": "3.8.x",
+    "sptVersion": "3.9.x",
     "scripts": {
         "setup": "npm i",
         "build": "node ./packageBuild.ts"

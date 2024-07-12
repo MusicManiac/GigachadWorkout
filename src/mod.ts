@@ -1,7 +1,7 @@
 import { DependencyContainer } from "tsyringe";
-import { Ilogger } from "@spt-aki/models/spt/utils/Ilogger";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { Ilogger } from "@spt/models/spt/utils/Ilogger";
+import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 
 import * as config from "../config.json"
 
