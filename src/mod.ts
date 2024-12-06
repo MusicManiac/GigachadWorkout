@@ -35,11 +35,11 @@ class GigachadWorkout implements IPostDBLoadMod
 		if (config.sameExpRegardlessOfSkillLevel) {
 			results.singleSuccessEffect.rewardsRange[0].levelMultipliers = [{
 				"level": 0,
-				"multiplier": 3
+				"multiplier": 6
 			}];
 			results.singleSuccessEffect.rewardsRange[1].levelMultipliers = [{
 				"level": 0,
-				"multiplier": 3
+				"multiplier": 6
 			}];
 		}
 
