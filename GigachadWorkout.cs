@@ -10,9 +10,9 @@ using SPTarkov.Server.Core.Models.Enums.Hideout;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
-[assembly: AssemblyVersion("2.0.0.0")]
-[assembly: AssemblyFileVersion("2.0.0.0")]
-[assembly: AssemblyInformationalVersion("2.0.0")]
+[assembly: AssemblyVersion("2.1.0.0")]
+[assembly: AssemblyFileVersion("2.1.0.0")]
+[assembly: AssemblyInformationalVersion("2.1.0")]
 [assembly: AssemblyCompany("MusicManiac")]
 [assembly: AssemblyProduct("Gigachad Workout")]
 [assembly: AssemblyCopyright("Copyright (c) 2026 MusicManiac")]
@@ -110,7 +110,7 @@ public sealed record GigachadWorkoutModMetadata : IModMetadata
     public string Name { get; init; } = "Gigachad Workout";
     public string Author { get; init; } = "MusicManiac";
     public List<string>? Contributors { get; init; } = ["MusicManiac"];
-    public SemanticVersioning.Version Version { get; init; } = new("2.0.0");
+    public SemanticVersioning.Version Version { get; init; } = new("2.1.0");
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
     public bool HasPrepatcher { get; init; }
     public List<string>? Incompatibilities { get; init; } = [];

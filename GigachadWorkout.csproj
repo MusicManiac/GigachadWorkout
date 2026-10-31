@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>GigachadWorkout</AssemblyName>
-    <Version>2.0.0</Version>
+    <Version>2.1.0</Version>
     <Authors>MusicManiac</Authors>
     <Company>MusicManiac</Company>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
